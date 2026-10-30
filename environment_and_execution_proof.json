@@ -1,0 +1,155 @@
+{
+  "created_utc": "2026-10-29",
+  "evidence_scope": "EXECUTED SOFTWARE DEMONSTRATION WITH SYNTHETIC DATA ONLY",
+  "clinical_data_included": false,
+  "actual_patient_efficacy_evidence": false,
+  "unverified_hypotheses": [
+    "H1 on genuinely linked clinical patients",
+    "H2 on authentic clinical client partitions"
+  ],
+  "tested_protocol_suite": "49 passed",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "scikit_learn": "1.8.0",
+  "scipy": "1.17.0",
+  "torch": "2.10.0+cpu",
+  "device": "cpu",
+  "synthetic_source_video_count": 1024,
+  "synthetic_frames_per_source_video": 64,
+  "runs": {
+    "central_3arm_seed7": {
+      "prediction_file_count": 3,
+      "results": [
+        {
+          "variant": "full",
+          "seed": 7,
+          "method": "central",
+          "n": 16,
+          "events": 8,
+          "auroc": 0.25,
+          "auprc": 0.3970425407925408,
+          "accuracy": 0.5,
+          "precision": 0.5,
+          "sensitivity": 1.0,
+          "specificity": 0.0,
+          "f1": 0.6666666666666666,
+          "mcc": 0.0,
+          "brier": 0.25067643574536724,
+          "nll": 0.6945009538031938,
+          "ece_15": 0.013242163738522605
+        },
+        {
+          "variant": "no_quality_time",
+          "seed": 7,
+          "method": "central",
+          "n": 16,
+          "events": 8,
+          "auroc": 0.78125,
+          "auprc": 0.7490079365079365,
+          "accuracy": 0.5,
+          "precision": 0.5,
+          "sensitivity": 1.0,
+          "specificity": 0.0,
+          "f1": 0.6666666666666666,
+          "mcc": 0.0,
+          "brier": 0.25000619200817786,
+          "nll": 0.6931594546305873,
+          "ece_15": 0.013262188405549269
+        },
+        {
+          "variant": "late",
+          "seed": 7,
+          "method": "central",
+          "n": 16,
+          "events": 8,
+          "auroc": 0.203125,
+          "auprc": 0.4092376373626373,
+          "accuracy": 0.5,
+          "precision": 0.5,
+          "sensitivity": 1.0,
+          "specificity": 0.0,
+          "f1": 0.6666666666666666,
+          "mcc": 0.0,
+          "brier": 0.2502943247016858,
+          "nll": 0.6937358474374202,
+          "ece_15": 0.002917133153294893
+        }
+      ],
+      "output_sha256": "bc012b92feae369468814ee7d93950be3d15f9589ddb7d04fb9b082d92d3aac2"
+    },
+    "fedavg_seed7": {
+      "prediction_file_count": 1,
+      "results": [
+        {
+          "variant": "full",
+          "seed": 7,
+          "method": "fedavg",
+          "n": 16,
+          "events": 8,
+          "auroc": 0.25,
+          "auprc": 0.3970425407925408,
+          "accuracy": 0.5,
+          "precision": 0.5,
+          "sensitivity": 1.0,
+          "specificity": 0.0,
+          "f1": 0.6666666666666666,
+          "mcc": 0.0,
+          "brier": 0.25052562000433054,
+          "nll": 0.6941992664467148,
+          "ece_15": 0.015730493271463586
+        }
+      ],
+      "output_sha256": "98f162b6cb3b7e7379150f0037e7433ccb163db3892cc8804e52b59a379f73ea"
+    },
+    "fedprox_seed7": {
+      "prediction_file_count": 1,
+      "results": [
+        {
+          "variant": "full",
+          "seed": 7,
+          "method": "fedprox",
+          "n": 16,
+          "events": 8,
+          "auroc": 0.25,
+          "auprc": 0.3970425407925408,
+          "accuracy": 0.5,
+          "precision": 0.5,
+          "sensitivity": 1.0,
+          "specificity": 0.0,
+          "f1": 0.6666666666666666,
+          "mcc": 0.0,
+          "brier": 0.25052561990857847,
+          "nll": 0.6941992662550317,
+          "ece_15": 0.0157304931784098
+        }
+      ],
+      "output_sha256": "c9836f672772dcfd4997909a9997eeed7e22cd848e60fd73596c3c0d23f3d43d"
+    },
+    "dp_fedavg_seed7": {
+      "prediction_file_count": 1,
+      "results": [
+        {
+          "variant": "full",
+          "seed": 7,
+          "method": "fedavg",
+          "n": 16,
+          "events": 8,
+          "auroc": 0.25,
+          "auprc": 0.3970425407925408,
+          "accuracy": 0.5,
+          "precision": 0.5,
+          "sensitivity": 1.0,
+          "specificity": 0.0,
+          "f1": 0.6666666666666666,
+          "mcc": 0.0,
+          "brier": 0.25052311178517195,
+          "nll": 0.6941942494765907,
+          "ece_15": 0.015802219724539324
+        }
+      ],
+      "output_sha256": "4e7ec332b7d7707338c89856865e22de697dc7a2adbb7a0ce5852651064d1ece"
+    }
+  }
+}
