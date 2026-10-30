@@ -1,0 +1,116 @@
+{
+  "is_synthetic": true,
+  "is_clinical_evidence": false,
+  "seed": 20261029,
+  "n": 1024,
+  "frames_per_video": 64,
+  "source_video_resolution": [
+    48,
+    48
+  ],
+  "modality_names": [
+    "echo",
+    "ecg",
+    "ehr"
+  ],
+  "simulation_not_dicom": true,
+  "positive_count": 377,
+  "split_counts": {
+    "train": 614,
+    "tune": 154,
+    "calibration": 103,
+    "test": 153
+  },
+  "client_counts": {
+    "virtual_1": 36,
+    "virtual_2": 149,
+    "virtual_3": 34,
+    "virtual_4": 102,
+    "virtual_5": 293
+  },
+  "shards": [
+    {
+      "file": "source_echo_frames_SYNTHETIC_ONLY/synthetic_echo_frames_0000_0063.npy",
+      "bytes": 9437312,
+      "sha256": "35af1131b746286579e0dffd9c04582b26cac57b310849b8cc3e210c88e191bf"
+    },
+    {
+      "file": "source_echo_frames_SYNTHETIC_ONLY/synthetic_echo_frames_0064_0127.npy",
+      "bytes": 9437312,
+      "sha256": "966b35bfa3a2e802148d3f567d12722eb0f051212ef17edf2c9908d836b6006a"
+    },
+    {
+      "file": "source_echo_frames_SYNTHETIC_ONLY/synthetic_echo_frames_0128_0191.npy",
+      "bytes": 9437312,
+      "sha256": "f84a7abe97716c1c6724790ee5ccca86543ae4ebf74d00a86a41823f222532d1"
+    },
+    {
+      "file": "source_echo_frames_SYNTHETIC_ONLY/synthetic_echo_frames_0192_0255.npy",
+      "bytes": 9437312,
+      "sha256": "8e1fe70dff1e36e34218fe59fafbedd52267b5200ae99799e51abbfedced2cde"
+    },
+    {
+      "file": "source_echo_frames_SYNTHETIC_ONLY/synthetic_echo_frames_0256_0319.npy",
+      "bytes": 9437312,
+      "sha256": "5920b60f2a6dd2cfe25440f73f319c27a1f557539fab84a528afb04b9e308234"
+    },
+    {
+      "file": "source_echo_frames_SYNTHETIC_ONLY/synthetic_echo_frames_0320_0383.npy",
+      "bytes": 9437312,
+      "sha256": "a5664ca27f905cbae5dee99bb664f88eec6c73b475d21ea0004d25f404450b9a"
+    },
+    {
+      "file": "source_echo_frames_SYNTHETIC_ONLY/synthetic_echo_frames_0384_0447.npy",
+      "bytes": 9437312,
+      "sha256": "cbcb0f70015d0299db326163e60a66b6c690ee861eaf76f687e4881650fe4a22"
+    },
+    {
+      "file": "source_echo_frames_SYNTHETIC_ONLY/synthetic_echo_frames_0448_0511.npy",
+      "bytes": 9437312,
+      "sha256": "1a4cfdc8b080af72d3c4dd70f947f45108e74cd1376c90c96d70835a7a64d0b8"
+    },
+    {
+      "file": "source_echo_frames_SYNTHETIC_ONLY/synthetic_echo_frames_0512_0575.npy",
+      "bytes": 9437312,
+      "sha256": "94754c4af5d5988c9f930517b5c519aba46c2a341d5959aed409ffbc50206f47"
+    },
+    {
+      "file": "source_echo_frames_SYNTHETIC_ONLY/synthetic_echo_frames_0576_0639.npy",
+      "bytes": 9437312,
+      "sha256": "2900c5845c8ca3ccf72da94a7c6e9b89b52774d672e53e48956429dc0ef35ad8"
+    },
+    {
+      "file": "source_echo_frames_SYNTHETIC_ONLY/synthetic_echo_frames_0640_0703.npy",
+      "bytes": 9437312,
+      "sha256": "c7bb96d5a1dd3f0c19a83d1ad4261f9725ed767e0988cf0b8a9376367e2c4470"
+    },
+    {
+      "file": "source_echo_frames_SYNTHETIC_ONLY/synthetic_echo_frames_0704_0767.npy",
+      "bytes": 9437312,
+      "sha256": "3ac7c02e7fc6abf5eedb938c68c6794bcc14b1120c6006db49cda47a8c86dce3"
+    },
+    {
+      "file": "source_echo_frames_SYNTHETIC_ONLY/synthetic_echo_frames_0768_0831.npy",
+      "bytes": 9437312,
+      "sha256": "8f9854548d26f437d38c2e0315333d06ee034aa311cc0f324c057fbaa4a8a512"
+    },
+    {
+      "file": "source_echo_frames_SYNTHETIC_ONLY/synthetic_echo_frames_0832_0895.npy",
+      "bytes": 9437312,
+      "sha256": "27e0633bb15c357a094b0b2ee2f384de7b2963af5545406e95a132ec18d3e5af"
+    },
+    {
+      "file": "source_echo_frames_SYNTHETIC_ONLY/synthetic_echo_frames_0896_0959.npy",
+      "bytes": 9437312,
+      "sha256": "e6bac0f6d929855942c5ef91dc5fc04e41a4db7f6caefd22e621648a66ec7402"
+    },
+    {
+      "file": "source_echo_frames_SYNTHETIC_ONLY/synthetic_echo_frames_0960_1023.npy",
+      "bytes": 9437312,
+      "sha256": "933743f35e65d607cb5d3279e16213c4180aa3c9bc0b90792d025201c2392a76"
+    }
+  ],
+  "derived_tensor_sha256": "3b96b152d03e47a405f4964978ab8e17ce2326642d5508b4ca0669fb91e63228",
+  "generator": "tools/make_synthetic_cohort.py",
+  "notice": "Synthetic procedural engineering data; no clinical efficacy, privacy guarantees or site generalization inferred."
+}
