@@ -1,0 +1,41 @@
+{
+  "variant": "full",
+  "seed": 7,
+  "method": "fedprox",
+  "temperature_from_calibration": 20.0,
+  "threshold_from_calibration": 0.05,
+  "metrics": {
+    "n": 16,
+    "events": 8,
+    "auroc": 0.25,
+    "auprc": 0.3970425407925408,
+    "accuracy": 0.5,
+    "precision": 0.5,
+    "sensitivity": 1.0,
+    "specificity": 0.0,
+    "f1": 0.6666666666666666,
+    "mcc": 0.0,
+    "brier": 0.25052561990857847,
+    "nll": 0.6941992662550317,
+    "ece_15": 0.0157304931784098,
+    "tn_fp_fn_tp": [
+      0,
+      8,
+      0,
+      8
+    ]
+  },
+  "training_history": [
+    {
+      "round": 1,
+      "client_count": 5
+    }
+  ],
+  "privacy": null,
+  "train_n": 25,
+  "tune_n": 16,
+  "calibration_n": 16,
+  "test_n": 16,
+  "split_fingerprint": "c70628b2b243521fba9d6e33015848f59b00d975ec93fee8bae28dfd6851859a",
+  "evidence_note": "Only valid with verified genuine patient-linked NPZ and source audit; no prospective/external validation."
+}

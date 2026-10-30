@@ -1,0 +1,1 @@
+subject_id,encounter_id,echo_exam_id,ecg_record_id,index_time,echo_time,ecg_time,ehr_latest_time,outcome_time,y_true,split,source

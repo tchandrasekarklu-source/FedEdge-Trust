@@ -1,0 +1,42 @@
+{
+  "variant": "full",
+  "seed": 7,
+  "method": "central",
+  "temperature_from_calibration": 20.0,
+  "threshold_from_calibration": 0.05,
+  "metrics": {
+    "n": 16,
+    "events": 8,
+    "auroc": 0.25,
+    "auprc": 0.3970425407925408,
+    "accuracy": 0.5,
+    "precision": 0.5,
+    "sensitivity": 1.0,
+    "specificity": 0.0,
+    "f1": 0.6666666666666666,
+    "mcc": 0.0,
+    "brier": 0.25067643574536724,
+    "nll": 0.6945009538031938,
+    "ece_15": 0.013242163738522605,
+    "tn_fp_fn_tp": [
+      0,
+      8,
+      0,
+      8
+    ]
+  },
+  "training_history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.9733063876628876,
+      "tune_nll": 0.8212278935538853
+    }
+  ],
+  "privacy": null,
+  "train_n": 25,
+  "tune_n": 16,
+  "calibration_n": 16,
+  "test_n": 16,
+  "split_fingerprint": "c70628b2b243521fba9d6e33015848f59b00d975ec93fee8bae28dfd6851859a",
+  "evidence_note": "Only valid with verified genuine patient-linked NPZ and source audit; no prospective/external validation."
+}

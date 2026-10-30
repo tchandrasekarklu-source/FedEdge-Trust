@@ -1,0 +1,2 @@
+variant,seed,method,n,events,auroc,auprc,accuracy,precision,sensitivity,specificity,f1,mcc,brier,nll,ece_15
+full,7,fedavg,16,8,0.25,0.3970425407925408,0.5,0.5,1.0,0.0,0.6666666666666666,0.0,0.25052562000433054,0.6941992664467148,0.015730493271463586

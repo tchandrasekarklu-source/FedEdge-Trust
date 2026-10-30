@@ -1,0 +1,61 @@
+{
+  "results": [
+    {
+      "variant": "full",
+      "seed": 7,
+      "method": "central",
+      "n": 16,
+      "events": 8,
+      "auroc": 0.25,
+      "auprc": 0.3970425407925408,
+      "accuracy": 0.5,
+      "precision": 0.5,
+      "sensitivity": 1.0,
+      "specificity": 0.0,
+      "f1": 0.6666666666666666,
+      "mcc": 0.0,
+      "brier": 0.25067643574536724,
+      "nll": 0.6945009538031938,
+      "ece_15": 0.013242163738522605
+    },
+    {
+      "variant": "no_quality_time",
+      "seed": 7,
+      "method": "central",
+      "n": 16,
+      "events": 8,
+      "auroc": 0.78125,
+      "auprc": 0.7490079365079365,
+      "accuracy": 0.5,
+      "precision": 0.5,
+      "sensitivity": 1.0,
+      "specificity": 0.0,
+      "f1": 0.6666666666666666,
+      "mcc": 0.0,
+      "brier": 0.25000619200817786,
+      "nll": 0.6931594546305873,
+      "ece_15": 0.013262188405549269
+    },
+    {
+      "variant": "late",
+      "seed": 7,
+      "method": "central",
+      "n": 16,
+      "events": 8,
+      "auroc": 0.203125,
+      "auprc": 0.4092376373626373,
+      "accuracy": 0.5,
+      "precision": 0.5,
+      "sensitivity": 1.0,
+      "specificity": 0.0,
+      "f1": 0.6666666666666666,
+      "mcc": 0.0,
+      "brier": 0.2502943247016858,
+      "nll": 0.6937358474374202,
+      "ece_15": 0.002917133153294893
+    }
+  ],
+  "source_file": "synthetic_fixtures/synthetic_tiny_smoke_test.npz",
+  "restricted_subject_level_predictions": true,
+  "split_fingerprint": "c70628b2b243521fba9d6e33015848f59b00d975ec93fee8bae28dfd6851859a"
+}

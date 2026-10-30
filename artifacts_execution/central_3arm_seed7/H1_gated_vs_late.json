@@ -1,0 +1,101 @@
+{
+  "n_paired_test_subjects": 16,
+  "n_test_events": 8,
+  "seeds": [
+    7
+  ],
+  "comparison": "gated minus late",
+  "per_seed": [
+    {
+      "seed": 7,
+      "model_a": {
+        "n": 16,
+        "events": 8,
+        "tn": 0,
+        "fp": 8,
+        "fn": 0,
+        "tp": 8,
+        "accuracy": 0.5,
+        "precision": 0.5,
+        "sensitivity": 1.0,
+        "specificity": 0.0,
+        "f1": 0.6666666666666666,
+        "mcc": 0.0,
+        "auroc": 0.25,
+        "auprc": 0.3970425407925408,
+        "brier": 0.25067643574536724,
+        "nll": 0.6945009538031938,
+        "ece": 0.013242163738522605,
+        "threshold": 0.5
+      },
+      "model_b": {
+        "n": 16,
+        "events": 8,
+        "tn": 0,
+        "fp": 8,
+        "fn": 0,
+        "tp": 8,
+        "accuracy": 0.5,
+        "precision": 0.5,
+        "sensitivity": 1.0,
+        "specificity": 0.0,
+        "f1": 0.6666666666666666,
+        "mcc": 0.0,
+        "auroc": 0.203125,
+        "auprc": 0.4092376373626373,
+        "brier": 0.2502943247016858,
+        "nll": 0.6937358474374202,
+        "ece": 0.002917133153294893,
+        "threshold": 0.5
+      }
+    }
+  ],
+  "paired_effects": {
+    "auroc": {
+      "mean_paired_delta": 0.046875,
+      "patient_bootstrap_95_CI": [
+        -0.3125,
+        0.41445312499999964
+      ]
+    },
+    "auprc": {
+      "mean_paired_delta": -0.012195096570096486,
+      "patient_bootstrap_95_CI": [
+        -0.23218119554057046,
+        0.14842111881174383
+      ]
+    },
+    "brier": {
+      "mean_paired_delta": 0.00038211104368146565,
+      "patient_bootstrap_95_CI": [
+        -0.00015964019572269338,
+        0.0008430560706142976
+      ]
+    },
+    "ece": {
+      "mean_paired_delta": 0.010325030585227712,
+      "patient_bootstrap_95_CI": [
+        0.00982751074340639,
+        0.010767755131633855
+      ]
+    },
+    "accuracy": {
+      "mean_paired_delta": 0.0,
+      "patient_bootstrap_95_CI": [
+        0.0,
+        0.0
+      ]
+    },
+    "f1": {
+      "mean_paired_delta": 0.0,
+      "patient_bootstrap_95_CI": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "H1_rule": "AUROC CI lower > 0 and Brier CI upper < 0 (direction pre-specified); report effect size even if null",
+  "H1_supported_by_this_comparison": false,
+  "scope": "Valid only for provenance-authenticated clinical held-out predictions; software cannot certify dataset origin",
+  "evidence_class": "SYNTHETIC SOFTWARE FUNCTIONALITY TEST \u2014 NOT CLINICAL PERFORMANCE"
+}

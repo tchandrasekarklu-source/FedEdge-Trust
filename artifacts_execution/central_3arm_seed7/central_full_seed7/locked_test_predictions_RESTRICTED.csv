@@ -1,0 +1,17 @@
+subject_id,y_true,y_prob,split,seed,variant
+4,1,0.51257895,test,7,full
+8,0,0.511494201,test,7,full
+15,0,0.515185935,test,7,full
+16,1,0.512767398,test,7,full
+17,1,0.512186983,test,7,full
+21,1,0.512945896,test,7,full
+26,0,0.51340418,test,7,full
+33,0,0.512075588,test,7,full
+44,0,0.514505556,test,7,full
+46,0,0.513802405,test,7,full
+49,0,0.514610728,test,7,full
+52,0,0.514858004,test,7,full
+66,1,0.513668981,test,7,full
+72,1,0.513263969,test,7,full
+88,1,0.512525262,test,7,full
+100,1,0.512000583,test,7,full

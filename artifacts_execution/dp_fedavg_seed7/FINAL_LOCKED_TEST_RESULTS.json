@@ -1,0 +1,25 @@
+{
+  "results": [
+    {
+      "variant": "full",
+      "seed": 7,
+      "method": "fedavg",
+      "n": 16,
+      "events": 8,
+      "auroc": 0.25,
+      "auprc": 0.3970425407925408,
+      "accuracy": 0.5,
+      "precision": 0.5,
+      "sensitivity": 1.0,
+      "specificity": 0.0,
+      "f1": 0.6666666666666666,
+      "mcc": 0.0,
+      "brier": 0.25052311178517195,
+      "nll": 0.6941942494765907,
+      "ece_15": 0.015802219724539324
+    }
+  ],
+  "source_file": "synthetic_fixtures/synthetic_tiny_smoke_test.npz",
+  "restricted_subject_level_predictions": true,
+  "split_fingerprint": "c70628b2b243521fba9d6e33015848f59b00d975ec93fee8bae28dfd6851859a"
+}

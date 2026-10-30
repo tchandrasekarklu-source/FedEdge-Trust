@@ -1,0 +1,98 @@
+{
+  "variant": "full",
+  "seed": 7,
+  "method": "fedavg",
+  "temperature_from_calibration": 20.0,
+  "threshold_from_calibration": 0.05,
+  "metrics": {
+    "n": 16,
+    "events": 8,
+    "auroc": 0.25,
+    "auprc": 0.3970425407925408,
+    "accuracy": 0.5,
+    "precision": 0.5,
+    "sensitivity": 1.0,
+    "specificity": 0.0,
+    "f1": 0.6666666666666666,
+    "mcc": 0.0,
+    "brier": 0.25052311178517195,
+    "nll": 0.6941942494765907,
+    "ece_15": 0.015802219724539324,
+    "tn_fp_fn_tp": [
+      0,
+      8,
+      0,
+      8
+    ]
+  },
+  "training_history": [
+    {
+      "round": 1,
+      "client_count": 5
+    }
+  ],
+  "privacy": {
+    "per_client": {
+      "virtual_1": {
+        "epsilon_upper_bound": 4.349376466383927,
+        "delta": 1e-05,
+        "alpha": 7,
+        "q": 1.0,
+        "sigma": 1.2,
+        "steps": 1,
+        "accountant": "integer-order RDP, Poisson-subsampled Gaussian, upper-bound conversion",
+        "assumptions": "disjoint subjects, independently sampled examples each step, pre-specified DP hyperparameters"
+      },
+      "virtual_2": {
+        "epsilon_upper_bound": 4.349376466383927,
+        "delta": 1e-05,
+        "alpha": 7,
+        "q": 1.0,
+        "sigma": 1.2,
+        "steps": 1,
+        "accountant": "integer-order RDP, Poisson-subsampled Gaussian, upper-bound conversion",
+        "assumptions": "disjoint subjects, independently sampled examples each step, pre-specified DP hyperparameters"
+      },
+      "virtual_3": {
+        "epsilon_upper_bound": 4.349376466383927,
+        "delta": 1e-05,
+        "alpha": 7,
+        "q": 1.0,
+        "sigma": 1.2,
+        "steps": 1,
+        "accountant": "integer-order RDP, Poisson-subsampled Gaussian, upper-bound conversion",
+        "assumptions": "disjoint subjects, independently sampled examples each step, pre-specified DP hyperparameters"
+      },
+      "virtual_4": {
+        "epsilon_upper_bound": 4.349376466383927,
+        "delta": 1e-05,
+        "alpha": 7,
+        "q": 1.0,
+        "sigma": 1.2,
+        "steps": 1,
+        "accountant": "integer-order RDP, Poisson-subsampled Gaussian, upper-bound conversion",
+        "assumptions": "disjoint subjects, independently sampled examples each step, pre-specified DP hyperparameters"
+      },
+      "virtual_5": {
+        "epsilon_upper_bound": 4.214235016555724,
+        "delta": 1e-05,
+        "alpha": 7,
+        "q": 0.8888888888888888,
+        "sigma": 1.2,
+        "steps": 1,
+        "accountant": "integer-order RDP, Poisson-subsampled Gaussian, upper-bound conversion",
+        "assumptions": "disjoint subjects, independently sampled examples each step, pre-specified DP hyperparameters"
+      }
+    },
+    "epsilon_parallel_composition_upper_bound": 4.349376466383927,
+    "delta_per_client": 1e-05,
+    "no_secure_aggregation": true,
+    "other_private_processing_not_accounted_for": true
+  },
+  "train_n": 25,
+  "tune_n": 16,
+  "calibration_n": 16,
+  "test_n": 16,
+  "split_fingerprint": "c70628b2b243521fba9d6e33015848f59b00d975ec93fee8bae28dfd6851859a",
+  "evidence_note": "Only valid with verified genuine patient-linked NPZ and source audit; no prospective/external validation."
+}

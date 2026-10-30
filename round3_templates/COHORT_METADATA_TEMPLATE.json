@@ -1,0 +1,11 @@
+{
+  "dataset": "MIMIC-IV-Echo DICOM + MIMIC-IV-ECG + MIMIC-IV Clinical",
+  "dataset_version": "Use exact source release version",
+  "institution_or_source": "Beth Israel Deaconess Medical Center via PhysioNet (source authorization to be confirmed)",
+  "data_access_mechanism": "PhysioNet credentialing + signed dataset-specific DUA",
+  "ethical_approval_or_waiver": "ENTER ACTUAL IRB APPROVAL OR WAIVER ID",
+  "acquisition_period": "VERIFY EXACT ELIGIBLE STUDY WINDOW",
+  "endpoint_definition": "Post-index index-admission in-hospital all-cause mortality",
+  "endpoint_adjudication": "ENTER CODES/TABLES FOR HOSPITAL DISCHARGE STATUS AND DATE",
+  "source_manifest_sha256": "REPLACE WITH REAL COHORT CSV SHA256"
+}
